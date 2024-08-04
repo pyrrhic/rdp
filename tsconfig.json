@@ -7,6 +7,8 @@
       "esnext"
     ],
     "allowJs": true,
+    "sourceMap": true,
+//    "inlineSources": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -16,11 +18,14 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+//    "isolatedModules": true,
+    "noEmit": false
+//    "jsx": "react-jsx"
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }

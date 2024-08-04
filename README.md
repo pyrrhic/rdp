@@ -1,3 +1,7 @@
+npx tailwindcss -i ./src/precompiled.css -o ./src/compiled.css --watch
+tsc --watch
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

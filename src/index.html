@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self';img-src 'self' data:" />
+      <meta
+              name="description"
+              content="Web site created using create-react-app"
+      />
+      <link rel="stylesheet" href="compiled.css">
+      <title>React App</title>
+  </head>
+  <body class="grid grid-cols-5 h-screen">
+    <aside class="p-4 bg-slate-900">
+        <div class="w-full" id="sources">
+        </div>
+    </aside>
+    <main class="col-span-4 bg-slate-950 p-4 flex flex-col">
+        <span class="bg-white text-center w-24 border-2 rounded text-lg mx-auto">Presenting</span>
+        <video class="justify-center items-center mt-4" id="video" autoplay></video>
+    </main>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
